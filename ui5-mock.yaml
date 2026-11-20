@@ -17,7 +17,7 @@ server:
           url: https://ui5.sap.com
         backend:
           - path: /sap
-            url: http://ndc-srvhana.opus-idc.com.br:8000/
+            url: https://ndc-srvhana.opus-idc.com.br:8100/
             client: '250'
     - name: fiori-tools-appreload
       afterMiddleware: compression
